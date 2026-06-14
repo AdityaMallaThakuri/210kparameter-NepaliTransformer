@@ -71,7 +71,7 @@ Linear → 74 logits → Softmax → next character
 Download Devkota's poems from [this GitHub repo](https://github.com/de-sawal/Poem-Generator/blob/master/lspd.txt) and save as `lspd.txt`.
 
 ### 2. Open the notebook in Google Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/210k-parameter-nepali-transformer/blob/main/nepali_gpt_devkota.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdityaMallaThakuri/210kparameter-NepaliTransformer/blob/main/CustomGPT.ipynb)
 
 ### 3. Upload lspd.txt
 Upload `lspd.txt` to the Colab session files.
