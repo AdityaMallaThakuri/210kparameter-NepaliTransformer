@@ -81,20 +81,7 @@ Training takes ~10 minutes on CPU, ~2 minutes on GPU.
 
 ---
 
-## Why This Matters for Lost Voices
 
-Nepal has 124 languages — 11 already extinct, 37 with fewer than 1,000 speakers. **Lost Voices** is building AI pipelines to preserve these languages before the last speakers are gone.
-
-This notebook is a baseline — proving the pipeline works on Nepali before applying it to lower-resource languages like **Tamang** and **Sunuwar**.
-
-The full Lost Voices stack:
-- **NLLB-200** fine-tuned on NepTam corpus → Nepali ↔ Tamang translation
-- **Whisper** with LoRA → speech recognition for recorded audio
-- **Coqui TTS / VITS** → synthetic voice generation
-
-Every concept in this notebook (embeddings, attention, residuals, cross-entropy loss, AdamW) is inside each of those models.
-
----
 
 ## Requirements
 
