@@ -1,0 +1,22 @@
+# data files - download separately (see README)
+*.txt
+*.csv
+
+# model weights - save to Google Drive instead
+*.pt
+*.pth
+*.bin
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# colab artifacts
+.config/
+sample_data/
+
+# os
+.DS_Store
+Thumbs.db
